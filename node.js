@@ -1,8 +1,9 @@
 
 const userkilometers=parseInt(prompt('quanti km vuoi percorrere?')); 
 let pLordo=(userkilometers*0.21)
-console.log(prezzo);
+console.log(pLordo);
 
+let prezzo=pLordo;
 const etaUtente=parseInt(prompt('quanti anni hai?'));
 console.log(etaUtente);
 if(etaUtente<18){
@@ -16,7 +17,7 @@ if(etaUtente<18){
 }else{
     let prezzo=pLordo;
 }
-document.getElementById.innerHTML=prezzo;
+document.getElementById("costo").innerHTML=prezzo;
 
 
 
